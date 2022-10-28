@@ -7,7 +7,9 @@ const Infocard = ({ img, cardTitle, bgClass }) => {
         <img src={img} className="sm:mx-auto my-2" alt="Album" />
       </figure>
       <div className="card-body text-white">
-        <h2 className="card-title text-white sm:text-center">{cardTitle}</h2>
+        <h2 className="card-title  mx-auto text-white sm:text-center">
+          {cardTitle}
+        </h2>
         <p>Click the button to listen on Spotiwhy app.</p>
       </div>
     </div>
